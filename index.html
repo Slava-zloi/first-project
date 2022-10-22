@@ -6,7 +6,7 @@
   <meta name="description" content="портфолио Вячеслава Гарановича на Яндекс.Практикуме">
   <meta name="keywords" content="html, css, javascript">
   <meta name="author" content="Вячеслав Гаранович">
-  <link rel="stylesheet" href="../how-to-learn/styles/normalize.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
 </head>
@@ -18,18 +18,18 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы
         к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать →</a>
+        <a href="#" class="header__link">Узнать &#8594;</a>
       </p>
-      <img src="../how-to-learn/images/header-image.png" alt="Фрагмент картины Опять двойка" class="header__main-illustration">
+      <img src="./images/header-image.png" alt="Фрагмент картины Опять двойка" class="header__main-illustration"/>
       <div class="header__square-pic"></div>
     </header>
-
+<!-- блок Главные проблемы в обучении: заголовок в столбце слева и текст справа -->
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <h6 class="two-columns__brief">Главные проблемы в обучении</h6>
-          <div class="main-text">
-            <p class="two-columns__paragraph  two-columns__paragraph">
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
               Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто
               в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
@@ -45,10 +45,10 @@
           </div>
         </div>
       </section>
-
+      <!-- блок Цифры и факты: два заголовка и 8 ячеек с заголовками и текстом внутри-->
       <section class="digits">
-        <h3 class="section-title">Цифры и факты</h3>
-        <h4 class="section-subtitle">Про учёбу и мозг</h5>
+        <h2 class="section-title">Цифры и факты</h2>
+        <h5 class="section-subtitle">Про учёбу и мозг</h5>
         <div class="table">
           <div class="table__cell">
             <h6 class="table__heading">86 миллиардов</h6>
@@ -87,17 +87,17 @@
          </div>
       </section>
 
-
+      <!-- блок Фейнман: Картинка, два заголовка и текст с ссылкой -->
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
-        <a href="#" class="feynman__link">Подробнее →</a>
-        <img class="feynman__main-illustration" src="../how-to-learn/images/feynman.png" alt="Feynman pucture фотография Фейнмана">
+        <a href="#" class="feynman__link">Подробнее &#8594;</a>
+        <img class="feynman__img" src="./images/feynman.png" alt="Feynman pucture фотография Фейнмана"/>
       </section>
 
-
+      <!-- блок Кауфман: два заголовка и 10 ячеек + синий треугольник -->
       <section class="kaufman">
-          <h3 class="section-title section-title_theme_dark">Принципы обучения</h3>
+          <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
           <h5 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h5>
           <div class="table table_theme_dark">
             <div class="table__cell table__cell_theme_dark">
@@ -141,42 +141,42 @@
               <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
             </div>
           </div>
-          <img  class="kaufman__triangle" src="../how-to-learn/images/kaufman-triangle.svg" alt="blue triangle синий треугольник">
+          <img  class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="blue triangle синий треугольник"/>
         </section>
     </main>
 
     <footer class="footer">
       <div class="footer__columns">
-          <div class="footer__column_content_copyright">
+          <div class="footer__column footer__column_content_copyright">
             <div class="logo logo_place_footer"></div>
             <p class="footer__author">&copy; Вячеслав Гаранович</p>
           </div>
-          <div class="footer__column_info">
+          <div class="footer__column footer__column_content_info">
             <h6 class="footer__column-heading ">О Практикуме</h6>
-            <ul class="footer__column-links">
+            <ul class="footer__column-links"> <!-- список с пунктами + ссылки -->
               <li><a href="#" class="footer__column-link">Главная</a></li>
               <li><a href="#" class="footer__column-link">Концепция</a></li>
               <li><a href="#" class="footer__column-link">Наставники</a></li>
             </ul>
           </div>
-          <div class="footer__column_social">
+          <div class="footer__column footer__column_content_social">
             <h6 class="footer__column-heading">Соцсети</h6>
-            <ul class="footer__column-links">
+            <ul class="footer__column-links"> <!-- список с иконками соцсетей и подписями + ссылки -->
               <li>
                 <a href="#" class="footer__column-link">
-                  <img class= footer_social-icon src="../how-to-learn/images/facebook_color_white.svg" alt="иконка Facebook">
+                  <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка Facebook">
                   Facebook
                 </a>
               </li>
               <li>
                 <a href="#" class="footer__column-link">
-                  <img class= footer_social-icon src="../how-to-learn/sprint-1__startkit/images/vk_color_white.svg" alt="иконка Вконтакте">
+                  <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="иконка Вконтакте">
                   ВКонтакте
                 </a>
               </li>
               <li>
                 <a href="#" class="footer__column-link">
-                  <img class= footer_social-icon src="../how-to-learn/sprint-1__startkit/images/instagram_color_white.svg" alt="иконка Instagram">
+                  <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка Instagram">
                   Instagram
                 </a>
               </li>
